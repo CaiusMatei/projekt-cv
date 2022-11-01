@@ -21,7 +21,9 @@
     padding: 0 25px;
     transition: 0.3s;
 }
-
+#active-page{
+    color: brown;
+}
 
 .container{
     display: flex;
@@ -1032,6 +1034,21 @@ a:hover{
    grid-template-columns: repeat(1,1fr);
    right: 15%;
 }
+.left-side{
+    width: 46vh;
+}
+.right-side{
+    width: 46vh;
+}
+.body3{
+    width: 5vh;
+}
+.head3{
+    width: 48vh;
+}
+.about{
+    width: fit-content;
+}
 .profile span{
     margin-left: 30px;
 }
@@ -1059,11 +1076,9 @@ a:hover{
 .container3 .contactinfo, .contactformula{
    width: 100%; 
 }
-.head3{
-    width: 178%;
-}
+
 .footer1{
-    width: 175%;
+    width: 46vh;
     height: 100px;
 }
 .popup a {
