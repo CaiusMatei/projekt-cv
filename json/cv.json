@@ -1,0 +1,27 @@
+{
+    "Jobs": [
+     {
+     "Heading": "2021-Present - Google -  ",
+     "Title":   " Senior System Developer - ",
+     "Location": " Stockholm"
+     },
+     {
+     "Heading": " 2018-2019 - Ark Kapital - ",
+     "Title": " System Developer - ",
+     "Location": " Stockholm"
+    },
+      {
+     "Heading": " 2016-2017 - Ark Kapital - ",
+     "Title": "Junior System Developer - ",
+     "Location": " Stockholm"
+     }
+    ],
+
+    "Educations": [
+       { "Title" : "2022 - ongoing YH-education .NET in ChasAcademy"
+    },
+    {
+       "Title":  "2018-2021 - Finished High School Technology program in Thoren Innovations School "
+    }
+    ]
+}
