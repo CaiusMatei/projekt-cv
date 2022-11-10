@@ -485,6 +485,16 @@ background:cornflowerblue
  .about{
      margin-bottom: 50px;
  }
+ #cv-list{
+    display: flex;
+    margin: 20px;
+    font-weight: bold;
+ }
+#educations{
+    color: white;
+    font-size: smaller;
+
+ }
  .about:last-child{
      margin-bottom: 0;
  }
@@ -633,8 +643,8 @@ background:cornflowerblue
     position: relative;
 }
 .Pic img{
-    max-width: 100%;
-    width: 450px;
+    max-width: 100vh;
+    width: 60vh;
     height: auto;
     object-fit: cover;
     border-radius: 12px;
@@ -766,9 +776,76 @@ footer{
     font-size: 36px;
 }
 
+.modalbox2 {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    margin-left: 50vh;
+    margin-top: 30vh;
+    width: 50%; 
+    height: 50%; 
+    overflow: auto; 
+    background-color: wheat; 
+  }
+  #modelcontent{
+    background-color:white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid gray;
+    width: 80%;
+  }
+  .modalcloser2 {
+    color: green;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .modalcloser2:hover,
+  .modalcloser2:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .text6{
+    height: 5vh;
+    border-radius: 12px;
+    transition: all 0.3s;
+    color: black;
 
+}
 
-
+.text6 h3{
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    bottom: 0%;
+    opacity: 0;
+    transition: 0.3s;
+    color: red;
+}
+.text6:hover h3{
+    bottom: 82%;
+    opacity: 1;
+    
+}
+.Pic2{
+    position: relative;
+}
+.Pic2 img{
+    max-width: 100%;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 12px;
+    
+}
+ 
+#mybutton{
+    margin-left: 32%;
+}
 
 
 
@@ -1022,9 +1099,23 @@ a:hover{
         opacity: 1;
         
     }
+    #modalbox2{
+        
+        height: 40vh;
+        margin-left: 20vh;
+        
+    }
     footer{
         margin-top: 42%;
     }
+    .text6 h3 {
+        font-size: 20px;
+       
+    }
+    #mybutton{
+        margin-left: 0;
+    }
+    
     
 
 
@@ -1084,6 +1175,11 @@ a:hover{
 .popup a {
     margin-top: 100px;
 }
+.Pic2 img{
+
+    height: 35vh;
+
+}
 }
 
 
@@ -1128,5 +1224,19 @@ and (max-width:998px) {
     .resume{
         width: fit-content;
        right: 8%;
+    }
+    #modalbox2{
+        
+        height: 40vh;
+        margin-left: 20vh;
+        
+    }
+    .Pic img{
+        width: 50vh ;
+    }
+    .Pic2 img{
+
+        height: 30vh;
+    
     }
     }
