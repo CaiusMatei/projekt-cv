@@ -1,4 +1,4 @@
-let url = "/json/cv.json";
+let url = "cv.json";
 const experience = document.querySelector('.jobs');
 const Education = document.querySelector('.Educate')
 async function cv (){
