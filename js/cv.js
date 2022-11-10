@@ -1,4 +1,4 @@
-let url = "/json/cv.json";
+let url = "https://api.github.com/users/chasacademy-Caius-Matei/repos";
 const experience = document.querySelector('.jobs');
 const Education = document.querySelector('.Educate')
 async function cv (){
